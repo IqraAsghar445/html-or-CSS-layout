@@ -1,0 +1,73 @@
+
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+section {
+    min-height: 100vh;
+    background-image: url("image/istockphoto-1341429602-612x612.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.nav {
+    width: 85%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Add box shadow */
+    background-color: rgba(19, 18, 18, 0.8); /* Add opacity to background */
+    padding: 10px; /* Add padding for better appearance */
+}
+
+nav h3 {
+    font-size: 35px;
+    color: rgb(202, 66, 146);
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+}
+
+nav ul li {
+    margin-right: 10px;
+}
+
+nav ul li a {
+    color: rgb(236, 224, 224);
+    text-decoration: none;
+    text-transform: uppercase;
+    border-radius: 5px;
+}
+
+.contain {
+    text-align: center;
+    padding: 20px; /* Add padding for better appearance */
+    background-color: rgba(189, 181, 181, 0.8); /* Add opacity to background */
+    box-shadow: 0 2px 4px rgba(153, 145, 145, 0.1); /* Add box shadow */
+}
+
+.contain button,
+.contain h1,
+.contain p {
+    margin: 10px 0;
+}
+
+button {
+    background-color: #d7e1ee;
+    color: rgb(88, 85, 85);
+    border: none;
+    padding: 10px 20px;
+    border-radius: 56px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #2c2d2e;
+}
